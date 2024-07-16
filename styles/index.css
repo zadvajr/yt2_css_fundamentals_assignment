@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 /* header section */
@@ -34,13 +34,15 @@ header p {
   font-size: 15px;
   font-weight: 400;
   text-align: justify;
+  line-height: 20.8px;
   max-width: 1148px;
   min-height: 89px;
+  margin-bottom: 26px;
 }
 
 /* Styles for anchor tag in header */
 header a {
-  max-width: 129px;
+  max-width: 139px;
   min-height: 32px;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
@@ -50,52 +52,59 @@ header a {
   text-decoration: none;
   border-left: 2px solid #ffffff;
   border-right: 2px solid #ffffff;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 7px;
   color: #ffffff;
 }
 
 .main {
   background-color: #01010129;
-  margin: 0;
   text-align: center;
-  padding: 50px;
+  color: #000000;
+  padding-top: 142px;
   max-width: 1920px;
-  min-height: 1565px;
+  min-height: 1870px;
 }
-.main h4 {
+#about {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 36.57px;
   letter-spacing: 0.3554em;
-  text-align: center;
-  color: #000000;
   border: 8px solid #000000;
-  padding: 10px;
-  width: 300px;
-  margin: 0 auto 50px auto;
+  max-width: 404px;
+  min-height: 107px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 71px;
+  padding: 33px 0;
 }
 .main p {
   font-family: "Open Sans", sans-serif;
+  max-width: 763px;
+  min-height: 47px;
+  font-weight: 400;
   font-size: 15px;
   line-height: 20.8px;
   text-align: center;
   color: #050505;
-  margin-bottom: 50px;
+  margin: 0 auto;
 }
 
 #explore {
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
   border-left: 2px solid #000000;
   border-right: 2px solid #000000;
-  padding: 5px;
-  font-family: "Montserrat", sans-serif;
+  padding: 7px;
   font-size: 15px;
   font-weight: 600;
   line-height: 18.29px;
   text-align: center;
   color: #000000;
+  max-width: 139px;
+  min-height: 32px;
+  margin-top: 74px;
+  margin-bottom: 85px;
 }
 .separator {
   display: block;
