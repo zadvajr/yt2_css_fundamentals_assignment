@@ -8,14 +8,14 @@
 
 /* header section */
 header {
-  width: 100%;
-  height: 230px;
+  max-width: 1920px;
+  min-height: 313px;
   color: #ffffff;
-  padding-left: 40px;
-  background: #1d1d1d url("../images/logo_itb.png") no-repeat top right / 396px;
-  padding-right: 0;
+  padding-left: 102px;
+  padding-top: 54px;
+  background: #1d1d1d url("../images/logo_itb.png") no-repeat right / 388.05px
+    368.16px;
 }
-
 /* h4 header styles */
 header h4 {
   font-family: "Montserrat", sans-serif;
@@ -23,11 +23,9 @@ header h4 {
   font-weight: 700;
   line-height: 36.57px;
   letter-spacing: 0.1854em;
-  padding-top: 15px;
-  padding-bottom: 5px;
   max-width: 363px;
   min-height: 63px;
-  margin-bottom: 10px;
+  text-align: left;
 }
 
 /* Styles for p tags in header */
@@ -35,17 +33,15 @@ header p {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  line-height: 20.8px;
   text-align: justify;
-  max-width: 890px;
+  max-width: 1148px;
   min-height: 89px;
-  margin-bottom: 25px;
 }
 
 /* Styles for anchor tag in header */
 header a {
-  width: 139px;
-  height: 32px;
+  max-width: 129px;
+  min-height: 32px;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 600;
@@ -54,9 +50,9 @@ header a {
   text-decoration: none;
   border-left: 2px solid #ffffff;
   border-right: 2px solid #ffffff;
-  padding: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   color: #ffffff;
-  margin-top: 25px;
 }
 
 .main {
@@ -65,8 +61,7 @@ header a {
   text-align: center;
   padding: 50px;
   max-width: 1920px;
-  /* max-height: 3017px; */
-  min-height: 538px;
+  min-height: 1565px;
 }
 .main h4 {
   font-family: "Montserrat", sans-serif;
@@ -107,4 +102,9 @@ header a {
   margin: 50px auto;
   width: 170px;
   height: 12px;
+}
+
+.logo {
+  width: 388.05px;
+  height: 575.27px;
 }
