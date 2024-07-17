@@ -7,7 +7,7 @@
 }
 
 /* header section */
-header {
+.header {
   max-width: 1920px;
   min-height: 313px;
   color: #ffffff;
@@ -17,7 +17,7 @@ header {
     368.16px;
 }
 /* h4 header styles */
-header h4 {
+.header h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -29,7 +29,7 @@ header h4 {
 }
 
 /* Styles for p tags in header */
-header p {
+.header p {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -41,7 +41,7 @@ header p {
 }
 
 /* Styles for anchor tag in header */
-header a {
+.header a {
   max-width: 139px;
   min-height: 32px;
   font-family: "Montserrat", sans-serif;
